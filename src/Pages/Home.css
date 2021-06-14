@@ -1,0 +1,87 @@
+.Home {
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.homeHeader {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.homeContainer {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.homeVideoTag {
+    /* Make video to at least 100% wide and tall */
+    min-width: 100%; 
+    min-height: 100%;
+
+    /* Setting width & height to auto prevents the browser from stretching or squishing the video */
+    width: auto;
+    height: auto;
+}
+
+#detach-button-host {
+    display: none !important;
+}
+
+.homeContent {
+    position: absolute;
+    color: #f1f1f1;
+    background-color: #d6dfff80;
+    height: 100%;
+    width: 100%;
+    height: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+}
+
+.homeSubContent {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.homeLogo {
+    height: 100%;
+    width: 80%;
+    pointer-events: none;
+    border-radius: 20%;
+}
+
+@media only screen and (max-width: 980px) {
+    .homeLogo {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 720px) {
+    .homeLogo {
+        width: 98%;
+        height: 80%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .homeLogo {
+        width: 98%;
+        height: 70%;
+    }
+}

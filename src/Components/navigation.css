@@ -1,0 +1,52 @@
+.Nav {
+    width: 100% !important;
+    height: 15%;
+    background-color: none;
+}
+
+#navBrand {
+    font-size: 1.5em;
+}
+
+.navPic {
+    width: 10vh;
+    height: 10vh;
+}
+
+.navbar-collapse {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    font-family: 'PT+Mono', monospace;
+    font-size: 0.7em;
+}
+
+.nav-link {
+    border-bottom: 0.09em solid #31333B;
+    margin: 0% 2%;
+    color: #31333B;
+}
+
+.nav-link:hover {
+    background-color: #c1e4b7;
+    color: #18191f;
+    border-top: 0.09em solid #31333B;
+}
+
+@media only screen and (max-width: 1201px) {
+    .navbar-collapse {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        font-family: 'PT+Mono', monospace;
+        font-size: 0.7em;
+        background-color: #e2e8ff;
+    }
+
+    .nav-link {
+        width: 90%;
+        margin: 1% 2%;
+    }
+}
