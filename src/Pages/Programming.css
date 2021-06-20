@@ -1,0 +1,77 @@
+.Programming {
+    width: 100%;
+    height: fit-content;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+}
+
+#programmingBg {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: url(../Media/top-border-vines-transparent.gif) no-repeat top center;
+    background-size: 100% 20%;
+    
+}
+
+#programmingContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #f7ed7fd2;
+    padding: 0% 2% 2%;
+}
+
+#programmingHeader {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 2% 0% 0%;
+}
+
+#programmingTitle {
+    font-family: 'Caveat', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#programmingFlowerDivider {
+    width: 40%;
+    height: 8vh;
+}
+
+.programmingParagraphDivider {
+    width: 50%;
+    height: 8vh;
+}
+
+#programmingMainInfo {
+    width: 90%;
+    padding: 2% 5%;
+    font-family: 'PT+Mono', monospace;
+    font-size: 0.8em;
+    background-color: #d4a4eb;
+    border: solid 0.5em #513b69;
+}
+
+#programmingCards {
+    margin: 2% 0% 0%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+}

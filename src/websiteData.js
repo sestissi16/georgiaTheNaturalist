@@ -14,26 +14,36 @@ const websiteInfo = {
                 title: "Amphibians and Reptiles (an evolutionary story):",
                 details: "This program aims to educate audiences about reptiles and amphibians in Ohio and how they can be beneficial to humans. It will also debunk many common myths about these misunderstood creatures and might even help you to love them just as much as I do.",
                 notes: "",
+                icon: "bullfrog",
+                alt: "bullfrog drawing",
             },
             program2: {
                 title: "Insects and Pollination:",
                 details: "Insects are not always appreciated for all of the hard work they do for us and our environment. In this program, I will list and talk about 3 crucial ways that insects are benefiting us in our daily lives. If the weather is agreeable, there will be opportunities to observe some of these incredible insects in action!",
                 notes: "*Depending on the weather, this program can include insect catching and observation.",
+                icon: "butterfly",
+                alt: "monarch butterfly",
             },
             program3: {
                 title: "Birds:",
                 details: "Have you ever wanted to know the names of the birds you hear singing outside? Are you curious about the ways in which birds benefit our everyday lives? This program will answer these curiosities and many, many more.",
                 notes: "*Depending on the weather, this program can include bird watching. Please bring binoculars if you have them.",
+                icon: "woodpecker",
+                alt: "woodpecker bird",
             },
             program4: {
                 title: "Mammals:",
                 details: "Ohio Mammals are diverse, and they participate within the intricate food chain in ways we do not often think about. Take away one, and what happens to the others? What happens to our crops, or even our homes? This program will help answer those questions and help us to get to know these furry friends.",
                 notes: "",
+                icon: "squirrel",
+                alt: "squirrel drawing",
             },
             program5: {
                 title: "Plants vs. Fungus:",
                 details: "Ever wonder what the difference between a fungus and a plant is? This program aims to take a deeper dive into the inner workings of plants and fungi in order to distinguish between the two and understand how they help each other survive.",
                 notes: "",
+                icon: "mushroom",
+                alt: "a group of mushrooms",
             }
         }
     }

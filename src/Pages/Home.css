@@ -39,7 +39,7 @@
 .homeContent {
     position: absolute;
     color: #f1f1f1;
-    background-color: #d6dfff80;
+    background-color: #d6dfff00;
     height: 100%;
     width: 100%;
     height: cover;
@@ -64,6 +64,7 @@
     width: 80%;
     pointer-events: none;
     border-radius: 20%;
+    margin: 5% 0% 0%;
 }
 
 @media only screen and (max-width: 980px) {

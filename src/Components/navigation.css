@@ -2,6 +2,7 @@
     width: 100% !important;
     height: 15%;
     background-color: none;
+    font-size: calc(10px + 2vmin);
 }
 
 #navBrand {
@@ -13,7 +14,12 @@
     height: 10vh;
 }
 
-.navbar-collapse {
+.navbar-nav {
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-collapse, .navbar-nav {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
@@ -23,19 +29,24 @@
 }
 
 .nav-link {
-    border-bottom: 0.09em solid #31333B;
     margin: 0% 2%;
-    color: #31333B;
+    color: #020b30;
+    font-size: 1.4em;
 }
 
 .nav-link:hover {
-    background-color: #c1e4b7;
+    background-color: #cfeec76e;
     color: #18191f;
+    border-bottom: 0.09em solid #31333B;
     border-top: 0.09em solid #31333B;
 }
 
+.nav-link.active {
+    border-bottom: 0.09em solid #31333B;
+}
+
 @media only screen and (max-width: 1201px) {
-    .navbar-collapse {
+    .navbar-collapse, .navbar-nav {
         display: flex;
         flex-direction: column;
         justify-content: flex-start;

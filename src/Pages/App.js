@@ -1,10 +1,9 @@
-// import logo from '../Media/georgiaTheNaturalistLogo.jpg';
-// import grass from '../Media/grassblowinggif.mp4'
-// import grassPic from '../Media/grassblowinggif_Moment.jpg'
-// import Navigation from '../Components/navigation'
+import React, { Fragment } from "react";
 import { Route, BrowserRouter as Router } from 'react-router-dom'
 import Home from '../Pages/Home'
 import About from '../Pages/About'
+import Programming from '../Pages/Programming'
+import Photos from '../Pages/Photos'
 import './App.css';
 
 function App() {
@@ -12,8 +11,12 @@ function App() {
   return (
     <div className="App">
         <Router basename={process.env.PUBLIC_URL}>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/AboutMe" component={About} />
+            <Fragment>
+                <Route exact path="/" component={Home} />
+                <Route exact path="/AboutMe" component={About} />
+                <Route exact path="/Programming" component={Programming} />
+                <Route exact path="/Photos" component={Photos} />
+            </Fragment>
         </Router>
     </div>
   );

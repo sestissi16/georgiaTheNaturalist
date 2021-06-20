@@ -1,0 +1,42 @@
+.ProgramCard {
+    width: 50vh;
+    height: fit-content;
+    background-color: #A3C19B ;
+    border: solid 0.4em #4f5e31;
+    padding: 2%;
+    margin: 2%;
+}
+
+.programCardIcon {
+    width: 35%;
+    height: 25%;
+    margin: 0% 0% 2%;
+}
+
+#woodpeckerIcon {
+    width: 25%;
+    height: 30%;
+}
+
+#bullfrogIcon {
+    height: 15vh;
+    width: 40%;
+}
+
+.programCardTitle {
+    font-size: 1.35em;
+    font-weight: bold;
+}
+
+.programCardDetails, .programCardNotes {
+    font-family: 'PT+Mono', monospace;
+}
+
+.programCardDetails {
+    font-size: 0.85em;
+}
+
+.programCardNotes {
+    font-size: 0.75em;
+    padding: 5% 0% 0%;
+}
