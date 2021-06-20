@@ -13,35 +13,42 @@ class About extends Component {
             <div className="About">
                 <Navigation variant="light" />
                 <div id="aboutContent">
-                    <div id="aboutMainDiv">
-                        <header className="aboutHeader">
-                            <h1 id="aboutTitle">About Georgia</h1>
-                            <img src={flowerDivider} id="aboutFlowerDivider" alt="Flowery dividing line" />
-                        </header>
+                    <header id="aboutHeader">
+                        <h1 id="aboutTitle">About Georgia</h1>
+                        <img src={flowerDivider} id="aboutFlowerDivider" alt="Flowery dividing line" />
                         <div id="aboutProfilePicDiv">
                             <img src={profilePic} id="aboutProfilePic" alt="Georgia on top of a plateau overlooking the water" />
                         </div>
-                        <div id="aboutProfileTextDiv">
-                            { aboutMe ? 
-                                Object.keys(aboutMe).map((key, index) => {
-                                    var aboutParagraph = aboutMe[key]
-                                    if(key === "paragraph3") {
-                                        return <p className="aboutProfileParagraph"> 
-                                            {aboutParagraph}
+                    </header>
+                    <div id="aboutProfileTextDiv">
+                        { aboutMe ? 
+                            Object.keys(aboutMe).map((key, index) => {
+                                var paragraphDetails = aboutMe[key]
+                                var idName = "paragraph" + index.toString()
+                                if(key === "paragraph3") {
+                                    return <div id={idName} style={{width: "100%", height: "fit-content"}}>
+                                        <h2 className="aboutParagraphTitle">
+                                            {paragraphDetails.title}
+                                        </h2>
+                                        <p className="aboutProfileParagraph"> 
+                                            {paragraphDetails.paragraph}
                                         </p>
-                                    } else {
-                                        return <div style={{width: "100%", height: "fit-content"}}>
-                                            <p className="aboutProfileParagraph"> 
-                                                {aboutParagraph}
-                                            </p>
-                                            <img src={flowerDivider2} className="aboutParagraphDivider" alt="Different flowery dividing line" />
-                                        </div>
-                                    }
-                                    
-                                }) 
-                                : <p>About description coming soon</p>
-                            }
-                        </div>
+                                    </div>
+                                } else {
+                                    return <div id={idName} style={{width: "100%", height: "fit-content"}}>
+                                        <h2 className="aboutParagraphTitle">
+                                            {paragraphDetails.title}
+                                        </h2>
+                                        <p className="aboutProfileParagraph"> 
+                                            {paragraphDetails.paragraph}
+                                        </p>
+                                        {/* <img src={flowerDivider2} className="aboutParagraphDivider" alt="Different flowery dividing line" /> */}
+                                    </div>
+                                }
+                                
+                            }) 
+                            : <p>About description coming soon</p>
+                        }
                     </div>
                 </div>
             </div>

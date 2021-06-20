@@ -1,9 +1,18 @@
 
 const websiteInfo = {
     aboutMe: {
-        paragraph1: "My name is Georgia Tillotson and I am the creator of Georgia the Naturalist. I have had a passion for nature since I was very young. I would spend most of my summer days outside looking for snakes in my mother’s yard, and going on hikes with my older sister. People would often ask me who my hero was, or who I looked up to, and I would name the naturalist who would do programs on local T.V. I loved going to programming at our zoo and at the state park that was nearest to us, and thus grew my dream to one day become a naturalist myself. ",
-        paragraph2: "I graduated from Earlham College with a Bachelor’s degree in Biology. I have worked in a museum, a science camp, 3 state parks, and at a nature center writing programs, interacting with the public, and learning. I have also worked at a small montessori-style school. ",
-        paragraph3: "Being a naturalist means that I will never stop learning. My goal with every program is to get someone at least a little bit more excited about learning to love observing the world around them. I want to make sure that when I am leading a program, everyone feels heard and all questions are answered. A program should never be a lecture, but rather a conversation. I am so excited to be starting this business and to share my passion for nature with you! ",
+        detail1: {
+            title: "Early in life",
+            paragraph: "My name is Georgia Tillotson and I am the creator of Georgia the Naturalist. I have had a passion for nature since I was very young. I would spend most of my summer days outside looking for snakes in my mother’s yard, and going on hikes with my older sister. People would often ask me who my hero was, or who I looked up to, and I would name the naturalist who would do programs on local T.V. I loved going to programming at our zoo and at the state park that was nearest to us, and thus grew my dream to one day become a naturalist myself. ",
+        },
+        detail2: {
+            title: "Education and work",
+            paragraph: "I graduated from Earlham College with a Bachelor’s degree in Biology. I have worked in a museum, a science camp, 3 state parks, and at a nature center writing programs, interacting with the public, and learning. I have also worked at a small montessori-style school. ",
+        },
+        detail3: {
+            title: "My goals",
+            paragraph: "Being a naturalist means that I will never stop learning. My goal with every program is to get someone at least a little bit more excited about learning to love observing the world around them. I want to make sure that when I am leading a program, everyone feels heard and all questions are answered. A program should never be a lecture, but rather a conversation. I am so excited to be starting this business and to share my passion for nature with you! ",
+        },
     },
     programming: {
         mainParagraph1: "I offer 5 core programs: Amphibians & Reptiles, Insects & Pollination, Mammals, Birds, and Plants & Fungus. I am flexible with programming and am willing to discuss edits/specific things I should touch on.  I am familiar with the Ohio state standards for science and can discuss focusing on specific standards for a program if necessary.",

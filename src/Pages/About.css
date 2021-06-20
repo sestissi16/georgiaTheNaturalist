@@ -13,32 +13,21 @@
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    background: url(../Media/birdTracks-transparent-withFlip-lessLong.png) no-repeat left center;
-    background-size: 40% 90%; 
-    
-}
-
-#aboutMainDiv {
-    width: 100%;
-    height: 100%;
-    display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
-    background-color: #a1bfe8a6;
+    align-items: center;
     padding: 0% 0% 4%;
 }
 
-.aboutHeader {
+#aboutHeader {
     width: 100%;
     height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
+    background: url(../Media/hand-painted-watercolor-nature-background-forest/5238188.jpg) no-repeat left center;
+    background-size: 100% 100%; 
     padding: 2% 0% 0%;
 }
 
@@ -49,7 +38,7 @@
 }
 
 #aboutFlowerDivider, .aboutParagraphDivider {
-    width: 50%;
+    width: 40%;
     height: 8vh;
 }
 
@@ -67,24 +56,61 @@
     width: 60vh;
     height: 60vh;
     border-radius: 50%;
+    border: solid #ffffff 0.2em;
 }
 
 #aboutProfileTextDiv {
-    width: 90%;
+    /* width: 90%; */
+    width: 100%;
     height: fit-content;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
     text-align: center;
-    background-color: #c6ebbcfa;
-    border: solid 0.4em #8aa05f;
+    /* background-color: #c6ebbcfa;
+    border: groove 0.4em #8aa05f; */
     padding: 0% 2% 0%;
+}
+
+.aboutParagraphTitle {
+    font-size: 1.3em;
+    padding: 2% 2%;
+    width: 100%;
 }
 
 .aboutProfileParagraph {
     font-family: 'PT+Mono', monospace;
     font-size: 0.8em;
-    padding: 2% 4% 3%;
+    padding: 0% 4% 3%;
     width: 100%;
+}
+
+#paragraph0 {
+    background-color: #293b33;
+    color: #ffffff;
+    text-align: left;
+}
+
+#paragraph1 {
+    text-align: left;
+}
+
+#paragraph2 {
+    background-color: #586e78;
+    color: #ffffff;
+    text-align: left;
+}
+
+@media only screen and (max-width: 430px) {
+    #aboutFlowerDivider {
+        width: 80%;
+    }
+
+    #aboutProfilePic {
+        width: 40vh;
+        height: 40vh;
+        border-radius: 50%;
+        border: solid #ffffff 0.2em;
+    }
 }

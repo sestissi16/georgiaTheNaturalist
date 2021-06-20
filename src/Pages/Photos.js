@@ -1,7 +1,6 @@
 import React , { Component } from 'react'
 import Navigation from '../Components/navigation'
 import flowerDivider from '../Media/blackFlowerDivider-Transparent-Cropped.png'
-import flowerDivider2 from '../Media/blackFlowerThinDivider2-FullLine-Transparent.png'
 import fieldWork1 from '../Media/galleryPhotos/Field Work_May2021.jpg'
 import fieldWork1Thumbnail from '../Media/galleryPhotoThumbnails/FieldWork_May2021_200x150.jpg'
 import fieldWork2 from '../Media/galleryPhotos/Field Work_May2021_2.jpg'
