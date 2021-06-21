@@ -18,7 +18,7 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    background: url(../Media/vines-hangingDown-transparent.jpg) no-repeat top center;
+    background: url(../Media/leaves-background-with-metallic-foil/3915228.jpg) no-repeat top center;
     background-size: 100% 100%; 
 }
 
@@ -29,7 +29,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    background-color: #cea0cfea;
+    background-color: #f7ed7f52;
     padding: 0% 0% 4%;
 }
 
@@ -40,10 +40,24 @@
 }
 
 #photosFlowerDivider {
-    width: 40%;
+    width: 50%;
     height: 8vh;
 }
 
 #photosGalleryDiv {
     max-width: 100%;
+    height: 100%;
+}
+
+.image-gallery {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 400px) {
+
+    #photosFlowerDivider {
+        width: 80%;
+        height: 8vh;
+    }
 }
