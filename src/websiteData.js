@@ -15,9 +15,11 @@ const websiteInfo = {
         },
     },
     programming: {
-        mainParagraph1: "I offer 5 core programs: Amphibians & Reptiles, Insects & Pollination, Mammals, Birds, and Plants & Fungus. I am flexible with programming and am willing to discuss edits/specific things I should touch on.  I am familiar with the Ohio state standards for science and can discuss focusing on specific standards for a program if necessary.",
-        mainParagraph2: "I also offer exploratory hikes in which I can lead a group of at most 15 people on a short hike and answer questions along the way. Toddler exploratory hikes/programs can be up to 7 kids plus chaperones. I also offer pond ecology dip programs which often begin with a bit about biological indicators like insect larva and amphibians.",
-        mainParagraph3: "Each program has their own hands-on props including pelts, skulls, skeletons, and even live animals. Please inquire about this via email if you are interested in knowing the prop list for a specific program.",
+        mainParagraph: "I offer 5 core programs, exploratory hikes, and pond ecology dip programs. Each program has its own hands-on props including pelts, skulls, skeletons, and even live animals. Please inquire about his via email if you are interested in knowing the prop list for a specific program.",
+        lastParagraph: "* I am flexible with programming and am willing to discuss edits / specific things I should touch on. I am familiar with the Ohio state standards for science and can discuss focusing on specific standards for a program if necessary.",
+        // mainParagraph1: "I offer 5 core programs: Amphibians & Reptiles, Insects & Pollination, Mammals, Birds, and Plants & Fungus. I am flexible with programming and am willing to discuss edits/specific things I should touch on.  I am familiar with the Ohio state standards for science and can discuss focusing on specific standards for a program if necessary.",
+        // mainParagraph2: "I also offer exploratory hikes in which I can lead a group of at most 15 people on a short hike and answer questions along the way. Toddler exploratory hikes/programs can be up to 7 kids plus chaperones. I also offer pond ecology dip programs which often begin with a bit about biological indicators like insect larva and amphibians.",
+        // mainParagraph3: "Each program has their own hands-on props including pelts, skulls, skeletons, and even live animals. Please inquire about this via email if you are interested in knowing the prop list for a specific program.",
         programmingOptions: {
             program1: {
                 title: "Amphibians and Reptiles (an evolutionary story):",
@@ -53,6 +55,13 @@ const websiteInfo = {
                 notes: "",
                 icon: "mushroom",
                 alt: "a group of mushrooms",
+            },
+            program6: {
+                title: "Exploratory Hikes and Pond Ecology Dips:",
+                details: "Exploratory hikes are where I lead a group of at most 15 people on a short hike and answer questions. There is also toddler exploratory hikes/programs that can be up to 7 kids plus chaperones. The pond ecology dip program begins with a bit about biological indicators like insect larva and amphibians.",
+                notes: "",
+                icon: "hiker",
+                alt: "drawing of a person hiking",
             }
         }
     }

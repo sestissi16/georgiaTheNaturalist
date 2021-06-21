@@ -1,7 +1,6 @@
 import React , { Component } from 'react'
 import Navigation from '../Components/navigation'
 import flowerDivider from '../Media/blackFlowerDivider-Transparent-Cropped.png'
-import flowerDivider2 from '../Media/blackFlowerThinDivider2-FullLine-Transparent.png'
 import profilePic from '../Media/Maine_AboutMePage_Cropped.jpg'
 import websiteInfo from '../websiteData'
 import './About.css';
