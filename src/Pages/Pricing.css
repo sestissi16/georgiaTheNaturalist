@@ -1,0 +1,61 @@
+.Pricing {
+    width: 100%;
+    height: fit-content;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+}
+
+#pricingContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background: url(../Media/realistic-wood-texture-background/86.jpg) no-repeat top center;
+    background-size: 100% 100%;
+}
+
+#pricingHeader {
+    width: 100%;
+    height: fit-content;
+    padding: 4% 0%;
+    background-color: #d6864588;
+}
+
+#pricingFlowerDivider {
+    width: 50%;
+    height: 8vh;
+}
+
+#pricingTableDiv {
+    width: 100%;
+    padding: 2% 2% 4%;
+    background-color: #d6864588;
+}
+
+.pricingTableHeader {
+    border-bottom: solid black 3px !important;
+    border-top: none !important;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.pricingTableRow {
+    border-bottom: solid black 2px !important;
+    border-right: solid black 0.8px !important;
+    border-left: solid black 0.8px !important;
+    font-family: "PT+Mono", monospace;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#pricingNotesDiv {
+    width: 100%;
+    padding: 0% 2% 4%;
+    background-color: #d6864588;
+}

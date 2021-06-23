@@ -4,6 +4,7 @@ import Home from '../Pages/Home'
 import About from '../Pages/About'
 import Programming from '../Pages/Programming'
 import Photos from '../Pages/Photos'
+import Pricing from '../Pages/Pricing'
 import './App.css';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
                 <Route exact path="/AboutMe" component={About} />
                 <Route exact path="/Programming" component={Programming} />
                 <Route exact path="/Photos" component={Photos} />
+                <Route exact path="/Pricing" component={Pricing} />
             </Fragment>
         </Router>
     </div>

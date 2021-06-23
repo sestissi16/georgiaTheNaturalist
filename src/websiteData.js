@@ -61,6 +61,77 @@ const websiteInfo = {
                 alt: "drawing of a person hiking",
             }
         }
+    },
+    pricing: {
+        headers: {
+            1: "Age",
+            2: "Number of People",
+            3: "Price",
+            4: "Additional Price",
+        },
+        details: {
+            row1: {
+                title: "First-Second Grades",
+                info: {
+                    1: "Six or less",
+                    2: "$130.00",
+                    3: "Each additional child is $10.00",
+                },
+            },
+            row2: {
+                title: "Third-Fourth Grades",
+                info: {
+                    1: "Six or less",
+                    2: "$130.00",
+                    3: "Each additional child is $10.00",
+                },
+            },
+            row3: {
+                title: "Fifth-Sixth Grades",
+                info: {
+                    1: "Six +/-",
+                    2: "$130.00",
+                    3: "After eight, each additional child is $10.00",
+                },
+            },
+            row4: {
+                title: "Seventh-Eighth Grade",
+                info: {
+                    1: "Six +/-",
+                    2: "$130.00",
+                    3: "After eight, each additional child is $10.00",
+                },
+            },
+            row5: {
+                title: "Ninth Grade",
+                info: {
+                    1: "Six +/-",
+                    2: "$130.00",
+                    3: "After eight, each additional child is $10.00",
+                },
+            },
+            row6: {
+                title: "Toddler Exploration",
+                info: {
+                    1: "No more than seven",
+                    2: "Flat rate $100.00",
+                    3: "N/A",
+                },
+            },
+            row7: {
+                title: "Any Age",
+                info: {
+                    1: "One-Two",
+                    2: "$75.00 an hour",
+                    3: "N/A",
+                },
+            },
+        },
+        notes: {
+            1: "* If your group is mixed in age, rates will be 130.00 with additional children being $10.00 each.",
+            2: "* +/- meaning up to fifteen and as little as 3.",
+            3: "* If applicable, please inquire about school groups/library programming prices",
+        },
     }
 }
 
