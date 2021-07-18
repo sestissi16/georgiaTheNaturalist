@@ -1,5 +1,6 @@
 import React , { Component } from 'react'
 import Navigation from '../Components/navigation'
+import Footer from '../Components/footer'
 import flowerDivider from '../Media/blackFlowerDivider-Transparent-Cropped.png'
 import websiteInfo from '../websiteData'
 import ProgramCard from '../Components/programCard'
@@ -43,6 +44,7 @@ class Programming extends Component {
                         {lastParagraph}
                     </div>
                 </div>
+                <Footer />
             </div>
         );
     }

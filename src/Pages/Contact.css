@@ -1,0 +1,103 @@
+.Contact {
+    width: 100%;
+    height: fit-content;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+}
+
+#contactBg {
+    background: url(../Media/flat-design-abstract-floral-background/3387793.jpg) no-repeat top center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 4%;
+}
+
+#contactHeader {
+    width: 100%;
+    height: fit-content;
+    padding: 4% 0% 0%;
+    background-color: #fbdbbbf8;
+    
+}
+
+#contactTitle {
+    font-size: 1.8em;
+}
+
+#contactFlowerDivider {
+    width: 50%;
+    height: 8vh;
+}
+
+#contactContent {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #fbdbbbf8;
+}
+
+#contactInfoDiv {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 2% 5%;
+    /* background-color: #9cb3acf5; */
+}
+
+#contactInfoTitle {
+    width: 100%;
+    text-align: left;
+    font-size: 1.5em;
+    padding: 0% 0% 2%;
+}
+
+#contactEmailIcon, #contactFacebookIcon {
+    font-size: 1.3em;
+}
+
+#contactInfoEmail, #contactInfoFacebook {
+    font-size: 1.2em;
+    padding: 0% 0% 0% 4%;
+    text-align: left;
+}
+
+#contactFormDiv {
+    width: 100%;
+    height: 100%;
+    padding: 3% 5%;
+}
+
+@media only screen and (max-width: 426px) {
+    #contactTitle {
+        font-size: 1.7em;
+    }
+    
+    #contactFlowerDivider {
+        width: 80%;
+        height: 8vh;
+    }
+
+    #buttonGroup {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactFormButton {
+        width: 90%;
+        margin: 1% 0% 7%;
+    }
+
+}

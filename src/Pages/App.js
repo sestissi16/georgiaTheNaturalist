@@ -5,6 +5,7 @@ import About from '../Pages/About'
 import Programming from '../Pages/Programming'
 import Photos from '../Pages/Photos'
 import Pricing from '../Pages/Pricing'
+import Contact from '../Pages/Contact'
 import './App.css';
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
                 <Route exact path="/Programming" component={Programming} />
                 <Route exact path="/Photos" component={Photos} />
                 <Route exact path="/Pricing" component={Pricing} />
+                <Route exact path="/Contact" component={Contact} />
             </Fragment>
         </Router>
     </div>

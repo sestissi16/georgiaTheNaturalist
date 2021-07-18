@@ -132,6 +132,11 @@ const websiteInfo = {
             2: "* +/- meaning up to fifteen and as little as 3.",
             3: "* If applicable, please inquire about school groups/library programming prices",
         },
+    },
+    contact: {
+        email: "georgiathenaturalist@gmail.com",
+        facebookLink: "https://www.facebook.com/Georgia-the-Naturalist-103260458606462/?ref=page_internal",
+        facebookLabel: "Georgia The Naturalist on Facebook",
     }
 }
 

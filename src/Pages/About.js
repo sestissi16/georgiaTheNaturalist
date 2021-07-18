@@ -1,5 +1,6 @@
 import React , { Component } from 'react'
 import Navigation from '../Components/navigation'
+import Footer from '../Components/footer'
 import flowerDivider from '../Media/blackFlowerDivider-Transparent-Cropped.png'
 import profilePic from '../Media/Maine_AboutMePage_Cropped.jpg'
 import websiteInfo from '../websiteData'
@@ -50,6 +51,7 @@ class About extends Component {
                         }
                     </div>
                 </div>
+                <Footer />
             </div>
         );
     }

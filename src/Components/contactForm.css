@@ -1,0 +1,68 @@
+#contactFormTitle {
+    width: 100%;
+    text-align: left;
+    font-size: 1.5em;
+    padding: 0% 0% 2%;
+}
+
+.form-check {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0%;
+}
+
+.form-group {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0% 0% 2% 0%;
+    padding: 1% 0%;
+    color: #0F0905;
+}
+
+.contactFormLabel {
+    font-weight: bold;
+    font-size: 1em;
+    width: 100%;
+    text-align: left;
+}
+
+.contactFormInput {
+    border-radius: 16px;
+    border: #74a4b4 0.2em solid;
+    padding: 1.5% 2%;
+    width: 100%;
+}
+
+#buttonGroup {
+    padding: 1% 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+}
+
+.contactFormButton {
+    width: 30%;
+    padding: 0.9%;
+    border-radius: 12px;
+    background-color: #4f7b8b;
+    color: white;
+    border: none !important;
+    margin: 0% 2%;
+    font-weight: bold !important;
+    font-size: large !important;
+}
+
+.contactFormButton:hover{
+    border-radius: 12px;
+    background-color: #86c6dd;
+    border: none !important;
+    color: black;
+}
