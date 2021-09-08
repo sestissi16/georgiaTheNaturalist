@@ -1,0 +1,65 @@
+.Attributions {
+    width: 100%;
+    height: fit-content;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+}
+
+#attributionsHeader {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8% 0% 4%;
+}
+
+#attributionsTitle {
+    font-family: 'Caveat', sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#attributionsFlowerDivider {
+    width: 40%;
+    height: 8vh;
+}
+
+#attributionsMainInfo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.attributionsMainParagraph {
+    width: 70%;
+    font-size: 1.2em;
+}
+
+#attributionsCards {
+    width: 100%;
+    margin: 0% 0% 0%;
+    padding: 0% 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 700px) {
+    #attributionsHeader {
+        padding: 18% 0% 4%;
+    }
+
+    #attributionsFlowerDivider {
+        width: 60%;
+        height: 8vh;
+    }
+}

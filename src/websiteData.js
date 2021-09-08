@@ -137,6 +137,41 @@ const websiteInfo = {
         email: "georgiathenaturalist@gmail.com",
         facebookLink: "https://www.facebook.com/Georgia-the-Naturalist-103260458606462/?ref=page_internal",
         facebookLabel: "Georgia The Naturalist on Facebook",
+    },
+    attribution: {
+        mainParagraph: "Here are the attributions for the images used in this website.",
+        attributions: {
+            image1: {
+                imageName: "flat-design-abstract",
+                attributionLink: "https://www.freepik.com/free-photos-vectors/background",
+                linkName: "Background vector created by pikisuperstar - www.freepik.com"
+            },
+            image2: {
+                imageName: "leaves-background",
+                attributionLink: "https://www.freepik.com/free-photos-vectors/background",
+                linkName: "Background vector created by coolvector - www.freepik.com"
+            },
+            image3: {
+                imageName: "hand-painted-watercolor-nature",
+                attributionLink: "https://www.freepik.com/free-photos-vectors/background",
+                linkName: "Background vector created by freepik - www.freepik.com"
+            },
+            image4: {
+                imageName: "realistic-wood-texture",
+                attributionLink: "https://www.freepik.com/free-photos-vectors/background",
+                linkName: "Background vector created by vikayatskina - www.freepik.com"
+            },
+            image5: {
+                imageName: "nature-scene-with-river",
+                attributionLink: "https://www.freepik.com/free-photos-vectors/tree",
+                linkName: "Tree vector created by jcomp - www.freepik.com"
+            },
+            image6: {
+                imageName: "hand-painted-watercolor-nature-background-forest",
+                attributionLink: "https://www.freepik.com/free-photos-vectors/background",
+                linkName: "Background vector created by freepik - www.freepik.com"
+            }
+        },  
     }
 }
 
