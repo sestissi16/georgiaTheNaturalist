@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { Route, BrowserRouter as Router } from 'react-router-dom'
+import { Route, HashRouter as Router } from 'react-router-dom'
 import Home from '../Pages/Home'
 import About from '../Pages/About'
 import Programming from '../Pages/Programming'
