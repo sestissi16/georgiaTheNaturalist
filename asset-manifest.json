@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/georgiaTheNaturalist/static/css/main.74419103.chunk.css",
-    "main.js": "/georgiaTheNaturalist/static/js/main.6dabcdc3.chunk.js",
-    "main.js.map": "/georgiaTheNaturalist/static/js/main.6dabcdc3.chunk.js.map",
+    "main.js": "/georgiaTheNaturalist/static/js/main.04c5d29b.chunk.js",
+    "main.js.map": "/georgiaTheNaturalist/static/js/main.04c5d29b.chunk.js.map",
     "runtime-main.js": "/georgiaTheNaturalist/static/js/runtime-main.942fcbce.js",
     "runtime-main.js.map": "/georgiaTheNaturalist/static/js/runtime-main.942fcbce.js.map",
     "static/css/2.6cd54866.chunk.css": "/georgiaTheNaturalist/static/css/2.6cd54866.chunk.css",
@@ -72,6 +72,6 @@
     "static/css/2.6cd54866.chunk.css",
     "static/js/2.7e2f2f2a.chunk.js",
     "static/css/main.74419103.chunk.css",
-    "static/js/main.6dabcdc3.chunk.js"
+    "static/js/main.04c5d29b.chunk.js"
   ]
 }
