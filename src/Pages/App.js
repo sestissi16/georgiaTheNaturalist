@@ -10,10 +10,11 @@ import Attributions from '../Pages/Attributions'
 import './App.css';
 
 function App() {
-    
+     
   return (
     <div className="App">
-        <Router basename={process.env.PUBLIC_URL}>
+        {/* <Router basename={process.env.PUBLIC_URL}> */}
+        <Router basename="/georgiaTheNaturalist" >
             <Fragment>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/AboutMe" component={About} />
