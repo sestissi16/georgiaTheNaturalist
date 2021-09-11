@@ -14,7 +14,7 @@ function App() {
   return (
     <div className="App">
         {/* <Router basename={process.env.PUBLIC_URL}> */}
-        <Router basename={"/georgiaTheNaturalist"} >
+        <Router basename="/georgiaTheNaturalist/" >
             <Fragment>
                 <Route exact path="/" component={Home} />
                 <Route exact path="/AboutMe" component={About} />
