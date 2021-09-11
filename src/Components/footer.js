@@ -11,7 +11,7 @@ class Footer extends Component {
         const { facebookLink, email } = WebsiteInfo.contact
         return (
             <Navbar variant="dark" expand="lg" sticky="bottom" className="custom-footer-bg">
-                <Navbar.Brand href="/" className="footer-title">
+                <Navbar.Brand href="/georgiaTheNaturalist/" className="footer-title">
                     <img
                         alt="Georgia The Naturalist Logo"
                         src={Logo}
@@ -51,7 +51,7 @@ class Footer extends Component {
                             </Tooltip>
                         }
                     >
-                        <Nav.Link href="/Attributions" className="footer-link-email">
+                        <Nav.Link href="/georgiaTheNaturalist/Attributions" className="footer-link-email">
                             <FaImage className="footer-link-attributions"/>
                         </Nav.Link>
                     </OverlayTrigger>

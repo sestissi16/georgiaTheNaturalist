@@ -15,7 +15,7 @@ function App() {
     <div className="App">
         {/* <Router basename={process.env.PUBLIC_URL}> */}
         <Router basename="/georgiaTheNaturalist/" >
-            {/* <Fragment> */}
+            <Fragment>
                 <Route exact path="/" component={Home} />
                 <Route path="/AboutMe" component={About} />
                 <Route path="/Programming" component={Programming} />
@@ -23,7 +23,7 @@ function App() {
                 <Route path="/Pricing" component={Pricing} />
                 <Route path="/Contact" component={Contact} />
                 <Route path="/Attributions" component={Attributions} />
-            {/* </Fragment> */}
+            </Fragment>
         </Router>
     </div>
   );

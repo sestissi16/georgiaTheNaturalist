@@ -13,11 +13,11 @@ class Navigation extends Component {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav activeKey={location.pathname}>
-                        <Nav.Link href="/georgiaTheNaturalist/AboutMe" activeStyle={{ color: 'red' }} >About Me</Nav.Link>
-                        <Nav.Link href="/georgiaTheNaturalist/Programming" activeStyle={{ color: 'red' }}>Programming</Nav.Link>
-                        <Nav.Link href="/georgiaTheNaturalist/Photos" activeStyle={{ color: 'red' }}>Photos</Nav.Link>
-                        <Nav.Link href="/georgiaTheNaturalist/Pricing" activeStyle={{ color: 'red' }}>Pricing</Nav.Link>
-                        <Nav.Link href="/georgiaTheNaturalist/Contact" activeStyle={{ color: 'red' }}>Contact - Scheduling</Nav.Link>
+                        <Nav.Link href="/georgiaTheNaturalist/AboutMe" active={window.location.pathname === '/georgiaTheNaturalist/AboutMe'}>About Me</Nav.Link>
+                        <Nav.Link href="/georgiaTheNaturalist/Programming" active={window.location.pathname === '/georgiaTheNaturalist/Programming'}>Programming</Nav.Link>
+                        <Nav.Link href="/georgiaTheNaturalist/Photos" active={window.location.pathname === '/georgiaTheNaturalist/Photos'}>Photos</Nav.Link>
+                        <Nav.Link href="/georgiaTheNaturalist/Pricing" active={window.location.pathname === '/georgiaTheNaturalist/Pricing'}>Pricing</Nav.Link>
+                        <Nav.Link href="/georgiaTheNaturalist/Contact" active={window.location.pathname === '/georgiaTheNaturalist/Contact'}>Contact - Scheduling</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
