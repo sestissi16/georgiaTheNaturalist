@@ -15,7 +15,7 @@ const websiteInfo = {
         },
     },
     programming: {
-        mainParagraph: "I offer 5 core programs, exploratory hikes, and pond ecology dip programs. Each program has its own hands-on props including pelts, skulls, skeletons, and even live animals. Please inquire about his via email if you are interested in knowing the prop list for a specific program.",
+        mainParagraph: "I offer 5 core programs, exploratory hikes, and pond ecology dip programs. Each program has its own hands-on props including pelts, skulls, skeletons, and even live animals. Please inquire about this via email if you are interested in knowing the prop list for a specific program.",
         lastParagraph: "* I am flexible with programming and am willing to discuss edits / specific things I should touch on. I am familiar with the Ohio state standards for science and can discuss focusing on specific standards for a program if necessary.",
         programmingOptions: {
             program1: {
@@ -54,8 +54,8 @@ const websiteInfo = {
                 alt: "a group of mushrooms",
             },
             program6: {
-                title: "Exploratory Hikes and Pond Ecology Dips:",
-                details: "Exploratory hikes are where I lead a group of at most 15 people on a short hike and answer questions. There is also toddler exploratory hikes/programs that can be up to 7 kids plus chaperones. The pond ecology dip program begins with a bit about biological indicators like insect larva and amphibians.",
+                title: "Exploratory Hikes, Pond Ecology Dips, and even Birthday Parites!:",
+                details: "Exploratory hikes are where I lead a group of at most 15 people on a short hike and answer questions. There is also toddler exploratory hikes/programs that can be up to 7 kids plus chaperones. The pond ecology dip program begins with a bit about biological indicators like insect larva and amphibians. I can also turn all of these programs into a cool and informative birthday party complete with gift bags!",
                 notes: "",
                 icon: "hiker",
                 alt: "drawing of a person hiking",
@@ -71,18 +71,18 @@ const websiteInfo = {
         },
         details: {
             row1: {
-                title: "First-Second Grades",
+                title: "Toddler Exploration",
                 info: {
-                    1: "Six or less",
+                    1: "No more than seven",
                     2: "$130.00",
-                    3: "Each additional child is $10.00",
+                    3: "N/A",
                 },
             },
             row2: {
-                title: "Third-Fourth Grades",
+                title: "First-Fourth Grades",
                 info: {
                     1: "Six or less",
-                    2: "$130.00",
+                    2: "$150.00",
                     3: "Each additional child is $10.00",
                 },
             },
@@ -90,7 +90,7 @@ const websiteInfo = {
                 title: "Fifth-Sixth Grades",
                 info: {
                     1: "Six +/-",
-                    2: "$130.00",
+                    2: "$150.00",
                     3: "After eight, each additional child is $10.00",
                 },
             },
@@ -98,7 +98,7 @@ const websiteInfo = {
                 title: "Seventh-Eighth Grade",
                 info: {
                     1: "Six +/-",
-                    2: "$130.00",
+                    2: "$175.00",
                     3: "After eight, each additional child is $10.00",
                 },
             },
@@ -106,24 +106,16 @@ const websiteInfo = {
                 title: "Ninth Grade",
                 info: {
                     1: "Six +/-",
-                    2: "$130.00",
+                    2: "$180.00",
                     3: "After eight, each additional child is $10.00",
                 },
             },
             row6: {
-                title: "Toddler Exploration",
+                title: "Mixed Age Birthday Party",
                 info: {
-                    1: "No more than seven",
-                    2: "Flat rate $100.00",
-                    3: "N/A",
-                },
-            },
-            row7: {
-                title: "Any Age",
-                info: {
-                    1: "One-Two",
-                    2: "$75.00 an hour",
-                    3: "N/A",
+                    1: "Up to 15",
+                    2: "$200 plus outside hours if applicable",
+                    3: "Each additional child is $10, inquire about help with party favors.",
                 },
             },
         },
@@ -135,7 +127,7 @@ const websiteInfo = {
     },
     contact: {
         email: "georgiathenaturalist@gmail.com",
-        facebookLink: "https://www.facebook.com/Georgia-the-Naturalist-103260458606462/?ref=page_internal",
+        facebookLink: "https://www.facebook.com/georgiathenaturalist/?ref=page_internal",
         facebookLabel: "Georgia The Naturalist on Facebook",
     },
     attribution: {

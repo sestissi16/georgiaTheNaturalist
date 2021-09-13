@@ -35,11 +35,12 @@ class Footer extends Component {
                         placement="top"
                         overlay={
                             <Tooltip id={`tooltip-cart`}>
-                                Email Link
+                                To Contact and Scheduling
                             </Tooltip>
                         }
                     >
-                        <Nav.Link href={`mailto:${email}`} className="footer-link-email">
+                        <Nav.Link href="/georgiaTheNaturalist/Contact" className="footer-link-email">
+                        {/* <Nav.Link href={`mailto:${email}`} className="footer-link-email"> */}
                             <MdEmail className="footer-icon-email"/>
                         </Nav.Link>
                     </OverlayTrigger>

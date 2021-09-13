@@ -53,8 +53,8 @@
 }
 
 #aboutProfilePic {
-    width: 60vh;
-    height: 60vh;
+    width: 60%;
+    height: 60%;
     border-radius: 50%;
     border: solid #ffffff 0.2em;
 }
@@ -108,8 +108,8 @@
     }
 
     #aboutProfilePic {
-        width: 40vh;
-        height: 40vh;
+        width: 70%;
+        height: 80%;
         border-radius: 50%;
         border: solid #ffffff 0.2em;
     }

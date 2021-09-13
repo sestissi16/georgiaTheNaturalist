@@ -76,13 +76,13 @@
 @media only screen and (max-width: 720px) {
     .homeLogo {
         width: 98%;
-        height: 80%;
+        height: 70%;
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     .homeLogo {
         width: 98%;
-        height: 70%;
+        height: 50%;
     }
 }

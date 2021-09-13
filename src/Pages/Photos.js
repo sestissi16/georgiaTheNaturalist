@@ -37,6 +37,16 @@ import ringneck from '../Media/galleryPhotos/Ringneck_At_WildmanWoods.jpg'
 import ringneckThumbnail from '../Media/galleryPhotoThumbnails/Ringneck_At_WildmanWoods_84x150.jpg'
 import stink from '../Media/galleryPhotos/Stink_Pot.jpg'
 import stinkThumbnail from '../Media/galleryPhotoThumbnails/Stink_Pot_200x150.jpg'
+import tinyKidsInGrass from '../Media/galleryPhotos/tinyKidsWithTurtleInField.jpg'
+import tinyKidsInGrassThumbnail from '../Media/galleryPhotoThumbnails/tinyKidsWithTurtleInField_200x150.jpg'
+import tinyKidsTouchingTurtle from '../Media/galleryPhotos/tinyKidsTouchingTurtle.jpg'
+import tinyKidsTouchingTurtleThumbnail from '../Media/galleryPhotoThumbnails/tinyKidsTouchingTurtle_113x150.jpg'
+import tinyKidsColoringTogether from '../Media/galleryPhotos/tinyKidsColoringTogether.jpg'
+import tinyKidsColoringTogetherThumbnail from '../Media/galleryPhotoThumbnails/tinyKidsColoringTogether_200x150.jpg'
+import tinyKidsWithGeorgiaHoldingSnake from '../Media/galleryPhotos/tinyKidsWithGeorgiaHoldingSnake.jpg'
+import tinyKidsWithGeorgiaHoldingSnakeThumbnail from '../Media/galleryPhotoThumbnails/tinyKidsWithGeorgiaHoldingSnake_200x150.jpg'
+import tinyKidsWithGeorgiaHoldingTurtle from '../Media/galleryPhotos/tinyKidsWithGeorgiaHoldingTurtle.jpg'
+import tinyKidsWithGeorgiaHoldingTurtleThumbnail from '../Media/galleryPhotoThumbnails/tinyKidsWithGeorgiaHoldingTurtle_200x150.jpg'
 // import websiteInfo from '../websiteData'
 import './Photos.css';
 
@@ -144,6 +154,36 @@ class Photos extends Component {
                 thumbnail: stinkThumbnail,
                 originalAlt: "Gerogia holding a baby snapping turtle named stink pot",
                 thumbnailAlt: "Gerogia holding a baby snapping turtle named stink pot",
+            },
+            {
+                original: tinyKidsColoringTogether,
+                thumbnail: tinyKidsColoringTogetherThumbnail,
+                originalAlt: "A group of kids working on a coloring project for one of the programs",
+                thumbnailAlt: "A group of kids working on a coloring project for one of the programs",
+            },
+            {
+                original: tinyKidsInGrass,
+                thumbnail: tinyKidsInGrassThumbnail,
+                originalAlt: "A group of kids sitting in the grass observing a turtle",
+                thumbnailAlt: "A group of kids sitting in the grass observing a turtle",
+            },
+            {
+                original: tinyKidsTouchingTurtle,
+                thumbnail: tinyKidsTouchingTurtleThumbnail,
+                originalAlt: "A supervised interaction with a turtle for the small kids",
+                thumbnailAlt: "A supervised interaction with a turtle for the small kids",
+            },
+            {
+                original: tinyKidsWithGeorgiaHoldingSnake,
+                thumbnail: tinyKidsWithGeorgiaHoldingSnakeThumbnail,
+                originalAlt: "A supervised interaction with a snake for the small kids",
+                thumbnailAlt: "A supervised interaction with a snake for the small kids",
+            },
+            {
+                original: tinyKidsWithGeorgiaHoldingTurtle,
+                thumbnail: tinyKidsWithGeorgiaHoldingTurtleThumbnail,
+                originalAlt: "Georgia showing a turtle to the small kids",
+                thumbnailAlt: "Georgia showing a turtle to the small kids",
             },
         ];
         return (
