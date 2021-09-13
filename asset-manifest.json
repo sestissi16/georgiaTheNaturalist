@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/georgiaTheNaturalist/static/css/main.74419103.chunk.css",
-    "main.js": "/georgiaTheNaturalist/static/js/main.84f6a0b7.chunk.js",
-    "main.js.map": "/georgiaTheNaturalist/static/js/main.84f6a0b7.chunk.js.map",
+    "main.css": "/georgiaTheNaturalist/static/css/main.8dfc555f.chunk.css",
+    "main.js": "/georgiaTheNaturalist/static/js/main.28f8b608.chunk.js",
+    "main.js.map": "/georgiaTheNaturalist/static/js/main.28f8b608.chunk.js.map",
     "runtime-main.js": "/georgiaTheNaturalist/static/js/runtime-main.942fcbce.js",
     "runtime-main.js.map": "/georgiaTheNaturalist/static/js/runtime-main.942fcbce.js.map",
     "static/css/2.6cd54866.chunk.css": "/georgiaTheNaturalist/static/css/2.6cd54866.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.5e6b2c7b.chunk.js.map": "/georgiaTheNaturalist/static/js/3.5e6b2c7b.chunk.js.map",
     "index.html": "/georgiaTheNaturalist/index.html",
     "static/css/2.6cd54866.chunk.css.map": "/georgiaTheNaturalist/static/css/2.6cd54866.chunk.css.map",
-    "static/css/main.74419103.chunk.css.map": "/georgiaTheNaturalist/static/css/main.74419103.chunk.css.map",
+    "static/css/main.8dfc555f.chunk.css.map": "/georgiaTheNaturalist/static/css/main.8dfc555f.chunk.css.map",
     "static/js/2.7e2f2f2a.chunk.js.LICENSE.txt": "/georgiaTheNaturalist/static/js/2.7e2f2f2a.chunk.js.LICENSE.txt",
     "static/media/Contact.css": "/georgiaTheNaturalist/static/media/3387793.f06e2977.jpg",
     "static/media/Photos.css": "/georgiaTheNaturalist/static/media/3915228.e10a78af.jpg",
@@ -65,13 +65,23 @@
     "static/media/groupOfMushrooms.99b7e172.png": "/georgiaTheNaturalist/static/media/groupOfMushrooms.99b7e172.png",
     "static/media/monarch_butterfly_Icon.2a1f7c7d.png": "/georgiaTheNaturalist/static/media/monarch_butterfly_Icon.2a1f7c7d.png",
     "static/media/mountains-clipart-transparent-background.f05bb56a.png": "/georgiaTheNaturalist/static/media/mountains-clipart-transparent-background.f05bb56a.png",
-    "static/media/squirrel-drawing-transparent.206f5dd7.png": "/georgiaTheNaturalist/static/media/squirrel-drawing-transparent.206f5dd7.png"
+    "static/media/squirrel-drawing-transparent.206f5dd7.png": "/georgiaTheNaturalist/static/media/squirrel-drawing-transparent.206f5dd7.png",
+    "static/media/tinyKidsColoringTogether.367a00bc.jpg": "/georgiaTheNaturalist/static/media/tinyKidsColoringTogether.367a00bc.jpg",
+    "static/media/tinyKidsColoringTogether_200x150.4080595d.jpg": "/georgiaTheNaturalist/static/media/tinyKidsColoringTogether_200x150.4080595d.jpg",
+    "static/media/tinyKidsTouchingTurtle.507944b1.jpg": "/georgiaTheNaturalist/static/media/tinyKidsTouchingTurtle.507944b1.jpg",
+    "static/media/tinyKidsTouchingTurtle_113x150.505d1c63.jpg": "/georgiaTheNaturalist/static/media/tinyKidsTouchingTurtle_113x150.505d1c63.jpg",
+    "static/media/tinyKidsWithGeorgiaHoldingSnake.3f8c865a.jpg": "/georgiaTheNaturalist/static/media/tinyKidsWithGeorgiaHoldingSnake.3f8c865a.jpg",
+    "static/media/tinyKidsWithGeorgiaHoldingSnake_200x150.7e830428.jpg": "/georgiaTheNaturalist/static/media/tinyKidsWithGeorgiaHoldingSnake_200x150.7e830428.jpg",
+    "static/media/tinyKidsWithGeorgiaHoldingTurtle.4630372c.jpg": "/georgiaTheNaturalist/static/media/tinyKidsWithGeorgiaHoldingTurtle.4630372c.jpg",
+    "static/media/tinyKidsWithGeorgiaHoldingTurtle_200x150.04e51ed1.jpg": "/georgiaTheNaturalist/static/media/tinyKidsWithGeorgiaHoldingTurtle_200x150.04e51ed1.jpg",
+    "static/media/tinyKidsWithTurtleInField.31433c9e.jpg": "/georgiaTheNaturalist/static/media/tinyKidsWithTurtleInField.31433c9e.jpg",
+    "static/media/tinyKidsWithTurtleInField_200x150.b80c9af2.jpg": "/georgiaTheNaturalist/static/media/tinyKidsWithTurtleInField_200x150.b80c9af2.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.942fcbce.js",
     "static/css/2.6cd54866.chunk.css",
     "static/js/2.7e2f2f2a.chunk.js",
-    "static/css/main.74419103.chunk.css",
-    "static/js/main.84f6a0b7.chunk.js"
+    "static/css/main.8dfc555f.chunk.css",
+    "static/js/main.28f8b608.chunk.js"
   ]
 }
