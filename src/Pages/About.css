@@ -113,4 +113,12 @@
         border-radius: 50%;
         border: solid #ffffff 0.2em;
     }
+
+    .aboutParagraphTitle {
+        font-size: 1.9em;
+    }
+    
+    .aboutProfileParagraph {
+        font-size: 1.3em;
+    }
 }

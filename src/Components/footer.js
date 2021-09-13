@@ -52,8 +52,8 @@ class Footer extends Component {
                             </Tooltip>
                         }
                     >
-                        <Nav.Link href="/georgiaTheNaturalist/Attributions" className="footer-link-email">
-                            <FaImage className="footer-link-attributions"/>
+                        <Nav.Link href="/georgiaTheNaturalist/Attributions" className="footer-link-attributions">
+                            <FaImage className="footer-icon-attributions"/>
                         </Nav.Link>
                     </OverlayTrigger>
                 </Nav>

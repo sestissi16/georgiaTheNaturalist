@@ -35,14 +35,14 @@
     background-color: #ffffff;
 }
 
-.footer-icon-fb, .footer-icon-email, .footer-link-attributions {
+.footer-icon-fb, .footer-icon-email, .footer-icon-attributions {
     height: 2.3em;
     width: 2.3em;
     color: #31333B;
 }
 
-.nav-link {
-    width: 20%;
+.footer-link-fb, .footer-link-email, .footer-link-attributions {
+    width: 20% !important;
 }
 
 @media only screen and (max-width: 934px) {
