@@ -74,14 +74,14 @@
 }
 
 .aboutParagraphTitle {
-    font-size: 1.3em;
+    font-size: 1.5em;
     padding: 2% 2%;
     width: 100%;
 }
 
 .aboutProfileParagraph {
     font-family: 'PT+Mono', monospace;
-    font-size: 0.8em;
+    font-size: 1em;
     padding: 0% 4% 3%;
     width: 100%;
 }

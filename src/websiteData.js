@@ -127,7 +127,7 @@ const websiteInfo = {
     },
     contact: {
         email: "georgiathenaturalist@gmail.com",
-        facebookLink: "https://www.facebook.com/georgiathenaturalist/?ref=page_internal",
+        facebookLink: "https://www.facebook.com/georgiathenaturalist/",
         facebookLabel: "Georgia The Naturalist on Facebook",
     },
     attribution: {
