@@ -13,16 +13,16 @@ function App() {
      
   return (
     <div className="App">
-        {/* <Router basename={process.env.PUBLIC_URL}> */}
-        <Router basename="/georgiaTheNaturalist/" >
+        <Router basename={process.env.PUBLIC_URL}>
+        {/* <Router basename="/georgiaTheNaturalist/" > */}
             <Fragment>
                 <Route exact path="/" component={Home} />
-                <Route path="/AboutMe" component={About} />
-                <Route path="/Programming" component={Programming} />
-                <Route path="/Photos" component={Photos} />
-                <Route path="/Pricing" component={Pricing} />
-                <Route path="/Contact" component={Contact} />
-                <Route path="/Attributions" component={Attributions} />
+                <Route exact path="/AboutMe" component={About} />
+                <Route exact path="/Programming" component={Programming} />
+                <Route exact path="/Photos" component={Photos} />
+                <Route exact path="/Pricing" component={Pricing} />
+                <Route exact path="/Contact" component={Contact} />
+                <Route exact path="/Attributions" component={Attributions} />
             </Fragment>
         </Router>
     </div>
