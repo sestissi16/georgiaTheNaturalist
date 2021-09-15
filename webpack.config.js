@@ -45,7 +45,7 @@ module.exports = {
   // and test spa-github-pages redirect in dev
   devServer: {
     historyApiFallback: {
-      rewrites: [{ from: /\/georgiaTheNaturalist\/[^?]/, to: '/404.html' }],
+      rewrites: [{ from: /\/[^?]/, to: '/404.html' }],
     },
   },
 };
