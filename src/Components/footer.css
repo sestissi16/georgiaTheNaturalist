@@ -47,15 +47,63 @@
 
 @media only screen and (max-width: 934px) {
     .footer-title {
-        width: 100%;
+        width: fit-content;
     }
 
     .footerLogo {
-        width: 8em;
-        height: 5em;
+        width: 6em;
+        height: 4em;
     }
 
     .footerLinks {
-        width: 100%;
+        width: 75%;
+    }
+}
+
+@media only screen and (max-width: 730px) {
+    .footerLogo {
+        width: 5em;
+        height: 4em;
+    }
+
+    .footerLinks {
+        width: 75%;
+    }
+
+    .footer-icon-fb, .footer-icon-email, .footer-icon-attributions {
+        height: 2.1em;
+        width: 2.1em;
+    }
+}
+
+@media only screen and (max-width: 610px) {
+    .footerLogo {
+        width: 4em;
+        height: 3em;
+    }
+
+    .footerLinks {
+        width: 71%;
+    }
+
+    .footer-icon-fb, .footer-icon-email, .footer-icon-attributions {
+        height: 2em;
+        width: 2em;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .footerLogo {
+        width: 3.2em;
+        height: 2.2em;
+    }
+
+    .footerLinks {
+        width: 68%;
+    }
+    
+    .footer-icon-fb, .footer-icon-email, .footer-icon-attributions {
+        height: 1.8em;
+        width: 1.8em;
     }
 }

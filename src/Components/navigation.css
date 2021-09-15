@@ -30,7 +30,7 @@
 
 .nav-link {
     margin: 0% 2%;
-    color: #020b30;
+    color: #020b30 !important;
     font-size: 1.4em;
 }
 
@@ -58,6 +58,7 @@
 
     .nav-link {
         width: 90%;
+        color: #020b30;
         margin: 1% 2%;
     }
 }
@@ -67,5 +68,6 @@
         width: 90% !important;
         margin: 1% 2%;
         font-size: 2.2em;
+        color: #020b30;
     }
 }

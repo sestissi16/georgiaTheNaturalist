@@ -53,8 +53,8 @@
 }
 
 #aboutProfilePic {
-    width: 60%;
-    height: 60%;
+    width: 50%;
+    height: 50%;
     border-radius: 50%;
     border: solid #ffffff 0.2em;
 }
@@ -115,10 +115,10 @@
     }
 
     .aboutParagraphTitle {
-        font-size: 1.9em;
+        font-size: 1.6em;
     }
     
     .aboutProfileParagraph {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
 }
