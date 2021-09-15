@@ -39,7 +39,7 @@ class Footer extends Component {
                             </Tooltip>
                         }
                     >
-                        <Nav.Link href="/georgiaTheNaturalist/Contact" className="footer-link-email">
+                        <Nav.Link href="/Contact" className="footer-link-email">
                         {/* <Nav.Link href={`mailto:${email}`} className="footer-link-email"> */}
                             <MdEmail className="footer-icon-email"/>
                         </Nav.Link>
@@ -52,7 +52,7 @@ class Footer extends Component {
                             </Tooltip>
                         }
                     >
-                        <Nav.Link href="/georgiaTheNaturalist/Attributions" className="footer-link-attributions">
+                        <Nav.Link href="/Attributions" className="footer-link-attributions">
                             <FaImage className="footer-icon-attributions"/>
                         </Nav.Link>
                     </OverlayTrigger>

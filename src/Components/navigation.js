@@ -9,15 +9,15 @@ class Navigation extends Component {
         const { location } = this.props;
         return (
             <Navbar collapseOnSelect expand="xl" variant={ variant } className="Nav">
-                <NavbarBrand href="/georgiaTheNaturalist/" id="navBrand">Georgia The Naturalist</NavbarBrand>
+                <NavbarBrand href="/" id="navBrand">Georgia The Naturalist</NavbarBrand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav activeKey={location.pathname}>
-                        <Nav.Link href="/georgiaTheNaturalist/AboutMe" active={window.location.pathname === '/georgiaTheNaturalist/AboutMe'}>About Me</Nav.Link>
-                        <Nav.Link href="/georgiaTheNaturalist/Programming" active={window.location.pathname === '/georgiaTheNaturalist/Programming'}>Programming</Nav.Link>
-                        <Nav.Link href="/georgiaTheNaturalist/Photos" active={window.location.pathname === '/georgiaTheNaturalist/Photos'}>Photos</Nav.Link>
-                        <Nav.Link href="/georgiaTheNaturalist/Pricing" active={window.location.pathname === '/georgiaTheNaturalist/Pricing'}>Pricing</Nav.Link>
-                        <Nav.Link href="/georgiaTheNaturalist/Contact" active={window.location.pathname === '/georgiaTheNaturalist/Contact'}>Contact - Scheduling</Nav.Link>
+                        <Nav.Link href="/AboutMe" active={window.location.pathname === '/AboutMe'}>About Me</Nav.Link>
+                        <Nav.Link href="/Programming" active={window.location.pathname === '/Programming'}>Programming</Nav.Link>
+                        <Nav.Link href="/Photos" active={window.location.pathname === '/Photos'}>Photos</Nav.Link>
+                        <Nav.Link href="/Pricing" active={window.location.pathname === '/Pricing'}>Pricing</Nav.Link>
+                        <Nav.Link href="/Contact" active={window.location.pathname === '/Contact'}>Contact - Scheduling</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

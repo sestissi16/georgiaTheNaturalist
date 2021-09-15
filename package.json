@@ -2,7 +2,7 @@
   "name": "georgia-the-naturalist-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://sestissi16.github.io/georgiaTheNaturalist/",
+  "homepage": "https://georgiathenaturalist.com",
   "dependencies": {
     "@colpi/react-fullscreen-menu": "^1.1.8",
     "@material-ui/core": "^4.11.4",
