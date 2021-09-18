@@ -81,7 +81,7 @@ const websiteInfo = {
             row2: {
                 title: "First-Fourth Grades",
                 info: {
-                    1: "Six or less",
+                    1: "Seven or less",
                     2: "$150.00",
                     3: "Each additional child is $10.00",
                 },
@@ -120,7 +120,7 @@ const websiteInfo = {
             },
         },
         notes: {
-            1: "* If your group is mixed in age, rates will be 130.00 with additional children being $10.00 each.",
+            1: "* If your group is mixed in age, rates will be based on the oldest child with additional children being 10$ each.",
             2: "* +/- meaning up to fifteen and as little as 3.",
             3: "* If applicable, please inquire about school groups/library programming prices",
         },
