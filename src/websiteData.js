@@ -1,3 +1,46 @@
+function importAll(r) {
+    let images = {};
+    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+    return images;
+}
+const galleryImages = importAll(require.context('./Media/galleryPhotos', false, /\.(png|jpe?g|svg)$/));
+const galleryThumbnails = importAll(require.context('./Media/galleryPhotoThumbnails', false, /\.(png|jpe?g|svg)$/));
+const altTexts = {
+    "Field Work_May2021_2.jpg": "Gerogia in the field holding a frog enthusiastically in the air",
+    "Field Work_May2021_3.jpg": "Gerogia in the field holding a turtle in the air",
+    "Field Work_May2021_4.jpg": "Gerogia in the field holding a reptile in the air",
+    "Field Work_May2021.jpg": "Gerogia in the field with some reptiles smiling",
+    "IDNR+Snake.png": "Gerogia working with the Indiana Department of Natural Resources holding a snake",
+    "Juno_OneWorld1.jpg": "Gerogia leading a program showing a snake to a toddler in an orange hat",
+    "Juno_OneWorld2.jpg": "Gerogia leading a program in a garden showing a snake to toddlers",
+    "Juno_OneWorld3.jpg": "Gerogia leading a program in a garden with a snake coiled around her wrist",
+    "Juno_OneWorld4.jpg": "Gerogia leading a program with toddlers gathered around and a snake in her outstretched hands",
+    "Juno_OneWorld5.jpg": "Gerogia leading a program in a garden with a toddler at her hip inspecting the snake",
+    "Juno_OneWorld6.jpg": "Gerogia leading a program in a garden showing a snake to toddlers excitedly listening",
+    "Juno_OneWorld7.jpg": "Gerogia leading a program in a garden allowing a toddler to safely hold a snake",
+    "Mounds_state_recreational_area.jpeg": "Gerogia working for IDNR showing a snake shedded skin to a group of kids",
+    "Mounds_state_recreational_area_2.jpeg": "Gerogia working for IDNR showing a medium sized snake to a group of kids",
+    "Mounds_state_recreational_area_3.jpeg": "Gerogia working for IDNR showing a turtle to a group of kids",
+    "Ringneck_At_WildmanWoods.jpg": "Gerogia outside in a nice outfit holding a tiny snake in her hand",
+    "Stink_Pot.jpg": "Gerogia holding a baby snapping turtle named stink pot",
+    "tinyKidsColoringTogether.jpg": "A group of kids working on a coloring project for one of the programs",
+    "tinyKidsTouchingTurtle.jpg": "A supervised interaction with a turtle for the small kids",
+    "tinyKidsWithGeorgiaHoldingSnake.jpg": "A supervised interaction with a snake for the small kids",
+    "tinyKidsWithGeorgiaHoldingTurtle.jpg": "Georgia showing a turtle to the small kids",
+    "tinyKidsWithTurtleInField.jpg": "A group of kids sitting in the grass observing a turtle"
+}
+
+const galleryObjects = Object.keys(galleryImages).map(function(key, index) {
+    var originalPath = galleryImages[key].default
+    var thumbnailPath = galleryThumbnails[Object.keys(galleryThumbnails)[index]].default
+    var imageAlt = altTexts[key]
+    return {
+        original: originalPath,
+        thumbnail: thumbnailPath,
+        originalAlt: imageAlt,
+        thumbnailAlt: imageAlt
+    }
+})
 
 const websiteInfo = {
     aboutMe: {
@@ -164,6 +207,9 @@ const websiteInfo = {
                 linkName: "Background vector created by freepik - www.freepik.com"
             }
         },  
+    },
+    photos: {
+        imageObjects: galleryObjects
     }
 }
 
