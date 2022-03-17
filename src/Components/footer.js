@@ -27,7 +27,7 @@ class Footer extends Component {
                             </Tooltip>
                         }
                     >
-                        <Nav.Link href={ facebookLink } className="footer-link-fb">
+                        <Nav.Link href={ facebookLink } aria-label="Facebook" className="footer-link-fb">
                             <FaFacebookSquare className="footer-icon-fb"/>
                         </Nav.Link>
                     </OverlayTrigger>
@@ -39,7 +39,7 @@ class Footer extends Component {
                             </Tooltip>
                         }
                     >
-                        <Nav.Link href="/Contact" className="footer-link-email">
+                        <Nav.Link href="/Contact" aria-label="Contact Page" className="footer-link-email">
                         {/* <Nav.Link href={`mailto:${email}`} className="footer-link-email"> */}
                             <MdEmail className="footer-icon-email"/>
                         </Nav.Link>
@@ -52,7 +52,7 @@ class Footer extends Component {
                             </Tooltip>
                         }
                     >
-                        <Nav.Link href="/Attributions" className="footer-link-attributions">
+                        <Nav.Link href="/Attributions" aria-label="Image Attributions" className="footer-link-attributions">
                             <FaImage className="footer-icon-attributions"/>
                         </Nav.Link>
                     </OverlayTrigger>
