@@ -1,0 +1,67 @@
+.Feedback {
+    width: 100%;
+    height: fit-content;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: calc(10px + 2vmin);
+}
+
+#feedbackBg {
+    background: url(../Media/nature-scene-with-river-hills-forest-mountain-landscape-flat-cartoon-style-illustration/Scene-24.jpg) no-repeat top center;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2% 6%;
+    width: 100%;
+    height: 100%;
+}
+
+#feedbackHeader {
+    width: 100%;
+    height: fit-content;
+    padding: 2% 0% 0%;
+    background-color: #68d7acd0;
+    
+}
+
+#feedbackTitle {
+    font-size: 1.8em;
+}
+
+#feedbackFlowerDivider {
+    width: 50%;
+    height: 8vh;
+}
+
+#feedbackContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: #68d7acd0;
+}
+
+#feedbackFormDiv {
+    width: 100%;
+    height: 100%;
+    padding: 3% 5%;
+}
+
+@media only screen and (max-width: 426px) {
+    #feedbackTitle {
+        font-size: 1.7em;
+    }
+    
+    #feedbackFlowerDivider {
+        width: 80%;
+        height: 8vh;
+    }
+
+}
